@@ -588,7 +588,7 @@
                 <span class="card-title activator teal-text hoverline">Calculator GPT<i
                     class="mdi-navigation-more-vert right"></i></span>
                 <p>
-                  A calculator from the GPT2.5
+                   Fine-tuned a EleutherAI/gpt-neo-1.3B for understanding domain-generalization issues.
                 </p>
               </div>
               <div class="card-reveal">
@@ -744,7 +744,7 @@
                 <span class="card-title activator teal-text hoverline">Uncertainity and Segmentation<i
                     class="mdi-navigation-more-vert right"></i></span>
                 <p>
-                  This project focuses on training a vision model for image segmentation and explores techniques such as hyperparameter tuning, data augmentation, and mixup training to improve the model's performance.
+                  This project focuses on training a vision model for image segmentation.
                 </p>
               </div>
               <div class="card-reveal">
@@ -774,13 +774,13 @@
           <div class="col s12 m6 l4">
             <div class="card medium">
               <div class="card-image waves-effect waves-block waves-light">
-                <img alt="Screenshot of  web app" src="/assets/img/computer-vision-v2-04.png" style="height: 100%; width: 100%" class="activator" />
+                <img alt="Screenshot of  web app" src="assets/img/CLIPImageClassification.png" style="height: 100%; width: 100%" class="activator" />
               </div>
               <div class="card-content">
-                <span class="card-title activator teal-text hoverline">Video Summarizer<i
+                <span class="card-title activator teal-text hoverline">Image Classification <i
                     class="mdi-navigation-more-vert right"></i></span>
                 <p>
-                  A Seq2Seq model that generates a short summary of the given input video.
+                  Nearest class Mean based classification with encoded image feature using CLIP. 
                 </p>
               </div>
               <div class="card-reveal">
@@ -789,12 +789,10 @@
                 <span class="card-title brown-text"><small>Accomplishments</small><i
                     class="mdi-navigation-close right"></i></span>
                 <ul>
-                  <li>Incorporated CNN to detect and classify objects in the video frames and Long Short Term Memory for
-                    generating a summary.</li>
-                  <li>Evaluated the model on MSVD (Microsoft Video Description Corpus) dataset; achieved 0.77, 0.71,
-                    0.52 scores respectively on ROGUE,
-                    BLEU, METEOR evaluation metrics.</li>
-
+                  <li>Nearest class Mean based classification with encoded image feature using CLIP
+                    Extending CLIP with one layered fully connected network.</li>
+                  <li>The nearest mean classifier model is a simple classifier that assigns a test sample to the class with the closest mean. My own network is a simple neural network with a single hidden layer extending CLIP.</li>
+                  <li>The nearest mean classifier model performs better than the CLIP model on the test data. This is likely because the nearest mean classifier model is a simpler model and is therefore less likely to overfit the training data.</li>
                 </ul>
                 <!-- TODO: UPLOAD THIS PROJECT ON GITHUB -->
                 <div class="card-action">
